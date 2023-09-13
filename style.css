@@ -202,10 +202,15 @@ font-size: 3rem;
     .question-card{
         width: 90%;
         height: auto;
-        padding-bottom: 2.5rem;
+        padding-bottom: 3rem;
+        margin-top: 3rem;
     }
     #nxt-btn{
-        margin-left: 10.5rem;
+        margin-left: 13.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+       
+        margin-top: 0;
         
     }
     #emoji-img img{
@@ -239,6 +244,7 @@ font-size: 3rem;
     }
     #next-btn{
         margin-left: 1rem;
+        
     }
     #emoji-img img{
         width: 200px;
@@ -261,6 +267,7 @@ font-size: 3rem;
     }
     #nxt-btn{
         margin-left: 15.4rem;
+       
     }
     #emoji-img img{
         width: 300px;
