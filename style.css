@@ -235,6 +235,7 @@ font-size: 3rem;
     #btn-group{
         width: 150px;
         align-items: center;
+        padding: 1rem;
     }
     #next-btn{
         margin-left: 1rem;

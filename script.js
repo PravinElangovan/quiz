@@ -185,7 +185,7 @@ function showScore(){
         imageContainer.appendChild(imgElement);
     }
     else{
-        imgElement.src="./images/thumsup.png";
+        imgElement.src="./images/thumbsdown.png";
         imgElement.alt="image";
         imageContainer.appendChild(imgElement);
     }
