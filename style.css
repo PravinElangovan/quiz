@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('');
+
+}
+
+.nav-container{
+    width: 100%;
+    background-color: white;
+    
+    
+    padding: 1rem;
+    
+}
+#logo{
+    font-weight:bold;
+    font-size: 2rem;
+    color: blue;
+}
+.nav-grp{
+    width: 90%;
+   
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.quiz-container{
+    width: 90%;
+    margin: auto;
+    margin-top: 2.4rem;
+    height: auto;
+    background-color: white;
+    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+#left{
+    width: 40%;
+    color: black;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#left p{
+width:400px;
+font-size: 3rem;
+}
+
+.question-card{
+   
+    width: 60%;
+    height: 400px;
+    background-color: RGB(83, 70, 245);
+    padding-top: 1.5rem;
+    z-index: 999;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.996);
+    border-radius: 1rem;
+    
+    
+}#btn-group{
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+  
+    margin-top: 2rem;
+    gap: 1rem;
+    justify-content: space-around;
+    
+}
+#btn-group button{
+    width: 350px;
+    padding-top:8px;
+    padding-bottom: 8px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+}
+#btn-group button:hover{
+    background-color: black;
+    color: white;
+}
+#question{
+    width: 400px;
+    margin: auto;
+    font-size: 2rem;
+    font-weight: 500;
+    
+    margin-top: 2rem;
+
+
+}
+#nxt-btn{
+    width: 150px;
+    font-weight: bold;
+    margin-top:2rem;
+    margin-left: 9rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    border-radius: 1rem;
+}
+
+#nxt-btn:hover{
+
+    background-color: black;
+    color: white;
+}
+.correct{
+    background-color: rgb(181, 252, 181) !important;
+    color: white;
+}
+.wrong{
+    background-color:rgb(252, 133, 133) !important;
+    color:white;
+}
+#nxt-btn{
+    display: none;
+}
+#question{
+    width: 500px;
+    color: white;
+    
+}
+#button{
+    background-color: white;
+    border:2px solid blue;
+    border-radius: 1rem;
+    padding:0 20px;
+    
+}
+#button:hover{
+    background-color: blue;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.5s, border-color 0.3s, color 0.3s, font-weight 0.3s;
+}
+.buttons{
+    
+    margin-top: 2.3rem;
+}
+#catagory{
+    color:tomato;
+}
