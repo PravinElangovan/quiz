@@ -1,28 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@300;400&family=Mulish:wght@300&family=Open+Sans&family=Roboto:wght@300&display=swap');
 *{
     margin: 0;
     box-sizing: border-box;
 
-    font-family: 'Open Sans', sans-serif;
-    background-image: url('');
+    font-family: 'Inter', sans-serif;
+    
 
 }
-
-.nav-container{
+.container{
+    background-image: url('./images/background.png');
+    background-position: center;
+    height: 100vh;
+}
+ .nav-container{
     width: 100%;
-    background-color: white;
+   
     
     
     padding: 1rem;
     
-}
+} 
 #logo{
     font-weight:bold;
     font-size: 2rem;
-    color: blue;
-}
+    color:white;
+    
+} 
 .nav-grp{
     width: 90%;
-   
     margin:auto;
     display: flex;
     justify-content: space-between;
@@ -34,8 +39,6 @@
     margin: auto;
     margin-top: 2.4rem;
     height: auto;
-    background-color: white;
-    
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -47,7 +50,7 @@
     color: black;
     font-size: 2rem;
     display: flex;
-    align-items: center;
+    
     justify-content: center;
     flex-direction: column;
 }
@@ -59,8 +62,8 @@ font-size: 3rem;
 
 .question-card{
    
-    width: 60%;
-    height: 400px;
+    width: 50%;
+    height: 350px;
     background-color: RGB(83, 70, 245);
     padding-top: 1.5rem;
     z-index: 999;
@@ -108,7 +111,7 @@ font-size: 3rem;
     width: 150px;
     font-weight: bold;
     margin-top:2rem;
-    margin-left: 9rem;
+    margin-left: 5.5rem;
     padding-top: 8px;
     padding-bottom: 8px;
 
@@ -155,5 +158,33 @@ font-size: 3rem;
     margin-top: 2.3rem;
 }
 #catagory{
-    color:tomato;
+    color:white;
 }
+#title{
+    color: white;
+}
+
+
+@media screen and (max-width: 950px) {
+    .quiz-container{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 6rem;
+    }
+    #left{
+        width: 90%;
+        margin: auto;
+        
+        display: flex;
+        gap: 2rem;
+    }
+    .question-card{
+        width: 90%;
+        height: auto;
+        padding-bottom: 2.5rem;
+    }
+    #nxt-btn{
+        margin-left: 10.5rem;
+    }
+  }
