@@ -100,6 +100,9 @@ const title= document.getElementById('title');
 let currentQuestionIndex=0;
 let score = 0;
 
+var imgElement=document.createElement("img");
+var imageContainer=document.getElementById('emoji-img');
+
 function startQuiz(){
     currentQuestionIndex=0;
     score=0;
@@ -176,5 +179,15 @@ next.addEventListener('click',()=>{
 function showScore(){
     questionElement.innerHTML = "Your Score is " + score;
     questionElement.style.textAlign="center";
+    if(score>5){
+        imgElement.src="./images/thumsup.png";
+        imgElement.alt="image";
+        imageContainer.appendChild(imgElement);
+    }
+    else{
+        imgElement.src="./images/thumsup.png";
+        imgElement.alt="image";
+        imageContainer.appendChild(imgElement);
+    }
 }
 startQuiz();

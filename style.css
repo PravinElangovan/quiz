@@ -169,7 +169,17 @@ font-size: 3rem;
 #title{
     color: white;
 }
-
+#emoji-img img{
+    
+    width: 200px;
+    display: flex;
+    margin:auto;
+    margin-top: 2rem;
+    
+}
+#bad-img{
+    display: none;
+}
 
 @media screen and (max-width: 950px) {
     .quiz-container{
@@ -194,6 +204,11 @@ font-size: 3rem;
         margin-left: 10.5rem;
         
     }
+    #emoji-img img{
+        width: 200px;
+        margin-top: 3rem;
+    }
+    
   }
   @media screen and (max-width: 600px) {
     .question-card{
@@ -212,6 +227,9 @@ font-size: 3rem;
     #next-btn{
         margin-left: 1rem;
     }
+    #emoji-img img{
+        width: 200px;
+    }
     
   }
   @media screen and (min-width: 1300px) {
@@ -227,5 +245,7 @@ font-size: 3rem;
     #nxt-btn{
         margin-left: 15.4rem;
     }
-    
+    #emoji-img img{
+        width: 300px;
+    }
   }
