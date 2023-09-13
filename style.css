@@ -8,9 +8,15 @@
 
 }
 .container{
-    background-image: url('./images/background.png');
-    background-position: center;
+    /* background-image: url('./images/background.png');
+    background-position: cover; */
+    background-color: blue;
+    background:linear-gradient(to right, blue, lightblue, white);
+    
+
+    width: 100vw;
     height: 100vh;
+    margin: auto;
 }
  .nav-container{
     width: 100%;
@@ -186,5 +192,39 @@ font-size: 3rem;
     }
     #nxt-btn{
         margin-left: 10.5rem;
+        
     }
+  }
+  @media screen and (max-width: 600px) {
+    .question-card{
+        width: 100%;
+        padding: 1rem;
+        height: 450px;
+    }
+    #question{
+        width: 300px;
+        text-align: center;
+    }
+    #btn-group{
+        width: 200px;
+        align-items: center;
+    }
+    #next-btn{
+        margin-left: 1rem;
+    }
+    
+  }
+  @media screen and (min-width: 1300px) {
+    .quiz-container{
+        width: 90%;
+        margin: auto;
+        border: 1px solid red;
+    }
+    .question-card{
+        height: 450px;
+    }
+    #nxt-btn{
+        margin-left: 15.4rem;
+    }
+    
   }
